@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Container from "./views/layout/Container.vue";
+import ExampleComponent from "./components/ExampleComponent.vue";
 const routes = [
     {
         path:"/",

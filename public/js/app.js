@@ -17961,9 +17961,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
 /* harmony import */ var _views_layout_Container_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/layout/Container.vue */ "./resources/js/views/layout/Container.vue");
+/* harmony import */ var _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue");
 /* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
+
 
 
 var routes = [{
@@ -17971,9 +17973,9 @@ var routes = [{
   name: _views_layout_Container_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
   component: _views_layout_Container_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
 }];
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_1__.createRouter)({
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_2__.createRouter)({
   routes: routes,
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_1__.createWebHistory)(process.env.BASE_URL)
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_2__.createWebHistory)(process.env.BASE_URL)
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
 
